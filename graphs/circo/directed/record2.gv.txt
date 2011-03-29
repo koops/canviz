@@ -1,0 +1,20 @@
+# Generated Mon Jan 24 22:34:10 GMT 2011 by circo - graphviz version 2.26.3 (20100126.1600)
+#
+# 
+# real	0m0.052s
+# user	0m0.017s
+# sys	0m0.010s
+
+digraph G {
+	node [label="\N", shape=record];
+	graph [bb="0,0,249,72",
+		_draw_="c 9 -#ffffffff C 9 -#ffffffff P 4 0 -1 0 72 250 72 250 -1 ",
+		xdotversion="1.2"];
+	a [label="<f0> foo | x | <f1> bar", pos="47.5,36", rects="1,18,37,54 37,18,60,54 60,18,94,54", width="1.2778", height="0.51389", _draw_="c 9 -#000000ff p 4 1 18 1 54 94 54 94 18 c 9 -#000000ff L 2 37 18 37 54 c 9 -#000000ff L 2 60 18 60 54 ", _ldraw_="F 14.000000 11 -Times-Roman c 9 -#000000ff T 19 30 0 20 3 -foo F 14.000000 11 -Times-Roman c 9 -#000000ff T 49 30 0 7 1 -x F 14.000000\
+ 11 -Times-Roman c 9 -#000000ff T 77 30 0 18 3 -bar "];
+	b [label="a | { <f0> foo | x | <f1> bar } | b", pos="207,36", rects="166,1.5,189,70.5 189,47.5,225,70.5 189,24.5,225,47.5 189,1.5,225,24.5 225,1.5,248,70.5", width="1.1389", height="0.97222", _draw_="c 9 -#000000ff p 4 166 2 166 71 248 71 248 2 c 9 -#000000ff L 2 189 2 189 71 c 9 -#000000ff L 2 189 48 225 48 c 9 -#000000ff L 2\
+ 189 25 225 25 c 9 -#000000ff L 2 225 2 225 71 ", _ldraw_="F 14.000000 11 -Times-Roman c 9 -#000000ff T 178 30 0 7 1 -a F 14.000000 11 -Times-Roman c 9 -#000000ff T 207 53 0 20 3 -foo F 14.000000\
+ 11 -Times-Roman c 9 -#000000ff T 207 30 0 7 1 -x F 14.000000 11 -Times-Roman c 9 -#000000ff T 207 7 0 18 3 -bar F 14.000000\
+ 11 -Times-Roman c 9 -#000000ff T 237 30 0 7 1 -b "];
+	a:f0 -> b:f1 [pos="e,207,1 18.5,18 18.5,18 157.71,5.4451 196.87,1.914", _draw_="c 9 -#000000ff B 4 19 18 19 18 158 5 197 2 ", _hdraw_="S 5 -solid c 9 -#000000ff C 9 -#000000ff P 3 197 5 207 1 197 -2 "];
+}

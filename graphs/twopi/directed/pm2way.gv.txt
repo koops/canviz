@@ -1,0 +1,38 @@
+# Generated Mon Jan 24 22:34:07 GMT 2011 by twopi - graphviz version 2.26.3 (20100126.1600)
+#
+# 
+# real	0m0.035s
+# user	0m0.023s
+# sys	0m0.009s
+
+digraph g {
+	node [label="\N", fontsize=14, fontname="Times-Roman", fontcolor=black, shape=box, color=black, width="0.5"];
+	edge [fontsize=14, fontname="Times-Roman", fontcolor=black, color=black];
+	graph [bb="0,0,503,390.38",
+		_draw_="c 9 -#ffffffff C 9 -#ffffffff P 4 0 -1 0 390 504 390 504 -1 ",
+		xdotversion="1.2"];
+	22690 [label="22690\n?", width="0.72222", pname="?", kind=proc, pos="283.75,20", height="0.52778", _draw_="c 9 -#000000ff p 4 310 39 258 39 258 1 310 1 ", _ldraw_="F 14.000000 11 -Times-Roman c 9 -#000000ff T 284 21 0 37 5 -22690 F 14.000000 11 -Times-Roman c 9 -#000000ff T 284 6 0 7 1 -? "];
+	22692 [label="22692\ndotty", width="0.72222", pname=dotty, kind=proc, pos="234,140.79", height="0.52778", _draw_="c 9 -#000000ff p 4 260 160 208 160 208 122 260 122 ", _ldraw_="F 14.000000 11 -Times-Roman c 9 -#000000ff T 234 142 0 36 5 -22692 F 14.000000 11 -Times-Roman c 9 -#000000ff T 234 127 0 31 5 -dotty\
+ "];
+	"116842+2595" [label="116842+2595\n/home/ek/work/sun4/bin/dotty", shape=ellipse, width="3.6944", kind=file, fname="/home/ek/work/sun4/bin/dotty", pos="134.5,225.43", height="0.75", _draw_="c 9 -#000000ff e 135 225 133 27 ", _ldraw_="F 14.000000 11 -Times-Roman c 9 -#000000ff T 135 226 0 81 11 -116842+2595 F 14.000000 11 -Times-Roman c 9 -#000000ff T 135 211 0\
+ 173 28 -/home/ek/work/sun4/bin/dotty "];
+	22693 [label="22693\nlefty", width="0.72222", pname=lefty, kind=proc, pos="292.25,267.75", height="0.52778", _draw_="c 9 -#000000ff p 4 318 287 266 287 266 249 318 249 ", _ldraw_="F 14.000000 11 -Times-Roman c 9 -#000000ff T 292 269 0 36 5 -22693 F 14.000000 11 -Times-Roman c 9 -#000000ff T 292 254 0 28 5 -lefty\
+ "];
+	"182440-1" [label="182440-1\n182441-1\npipe", fontsize=7, shape=doublecircle, width="0.97222", kind=file, fname=pipe, subkind=pipe, pos="350.5,225.43", height="0.97222", _draw_="c 9 -#000000ff e 351 225 31 31 c 9 -#000000ff e 351 225 35 35 ", _ldraw_="F 7.000000 11 -Times-Roman c 9 -#000000ff T 351 230 0 28 8 -182440-1 F 7.000000 11 -Times-Roman c 9 -#000000ff T 351 222 0 28 8 \
+-182441-1 F 7.000000 11 -Times-Roman c 9 -#000000ff T 351 214 0 13 4 -pipe "];
+	"182442-1" [label="182442-1\n182443-1\npipe", fontsize=7, shape=doublecircle, width="0.97222", kind=file, fname=pipe, subkind=pipe, pos="467,310.07", height="0.97222", _draw_="c 9 -#000000ff e 467 310 31 31 c 9 -#000000ff e 467 310 35 35 ", _ldraw_="F 7.000000 11 -Times-Roman c 9 -#000000ff T 467 315 0 28 8 -182442-1 F 7.000000 11 -Times-Roman c 9 -#000000ff T 467 307 0 28 8 \
+-182443-1 F 7.000000 11 -Times-Roman c 9 -#000000ff T 467 299 0 13 4 -pipe "];
+	22694 [label="22694\ndot", width="0.72222", pname=dot, kind=proc, pos="408.75,183.11", height="0.52778", _draw_="c 9 -#000000ff p 4 435 202 383 202 383 164 435 164 ", _ldraw_="F 14.000000 11 -Times-Roman c 9 -#000000ff T 409 184 0 37 5 -22694 F 14.000000 11 -Times-Roman c 9 -#000000ff T 409 169 0 19 3 -dot\
+ "];
+	"4761+2595" [label="4761+2595\n/home/ek/pm2.dot", shape=ellipse, width="2.3611", kind=file, fname="/home/ek/pm2.dot", pos="306,362.38", height="0.75", _draw_="c 9 -#000000ff e 306 362 85 27 ", _ldraw_="F 14.000000 11 -Times-Roman c 9 -#000000ff T 306 363 0 67 9 -4761+2595 F 14.000000 11 -Times-Roman c 9 -#000000ff T 306 348 0 104\
+ 16 -/home/ek/pm2.dot "];
+	22690 -> 22692 [pos="e,241.85,121.74 275.87,39.139 267.75,58.841 255.02,89.762 245.72,112.33", _draw_="c 9 -#000000ff B 4 276 39 268 59 255 90 246 112 ", _hdraw_="S 5 -solid c 9 -#000000ff C 9 -#000000ff P 3 242 111 242 122 249 114 "];
+	22692 -> "116842+2595" [dir=back, pos="s,211.42,159.99 203.79,166.49 191.72,176.75 177.83,188.57 165.66,198.92", _draw_="c 9 -#000000ff B 4 204 166 192 177 178 189 166 199 ", _tdraw_="S 5 -solid c 9 -#000000ff C 9 -#000000ff P 3 206 169 211 160 202 164 "];
+	22692 -> 22693 [pos="e,283.47,248.61 242.72,159.79 252.37,180.83 268.03,214.96 279.16,239.21", _draw_="c 9 -#000000ff B 4 243 160 252 181 268 215 279 239 ", _hdraw_="S 5 -solid c 9 -#000000ff C 9 -#000000ff P 3 276 241 283 249 282 238 "];
+	22693 -> "182440-1" [dir=back, pos="s,318.31,248.82 321.5,246.5 321.65,246.39 321.8,246.28 321.96,246.17", _draw_="c 9 -#000000ff B 4 322 246 322 246 322 246 322 246 ", _tdraw_="S 5 -solid c 9 -#000000ff C 9 -#000000ff P 3 324 240 318 249 328 246 "];
+	22693 -> "182442-1" [dir=forward, pos="e,432.84,301.8 318.41,274.08 346.02,280.77 390.03,291.43 422.99,299.41", _draw_="c 9 -#000000ff B 4 318 274 346 281 390 291 423 299 ", _hdraw_="S 5 -solid c 9 -#000000ff C 9 -#000000ff P 3 422 303 433 302 424 296 "];
+	22693 -> 22694 [pos="e,382.69,202.04 318.4,248.75 334.88,236.77 356.36,221.17 374.24,208.18", _draw_="c 9 -#000000ff B 4 318 249 335 237 356 221 374 208 ", _hdraw_="S 5 -solid c 9 -#000000ff C 9 -#000000ff P 3 377 211 383 202 373 205 "];
+	22694 -> "182440-1" [dir=forward, pos="e,379.04,204.69 382.69,202.04 382.54,202.15 382.39,202.26 382.24,202.37", _draw_="c 9 -#000000ff B 4 383 202 383 202 382 202 382 202 ", _hdraw_="S 5 -solid c 9 -#000000ff C 9 -#000000ff P 3 385 196 379 205 389 202 "];
+	22694 -> "182442-1" [dir=back, pos="s,417.47,202.12 421.65,211.23 430.73,231.01 442.89,257.51 452.33,278.1", _draw_="c 9 -#000000ff B 4 422 211 431 231 443 258 452 278 ", _tdraw_="S 5 -solid c 9 -#000000ff C 9 -#000000ff P 3 425 210 417 202 418 213 "];
+	22693 -> "4761+2595" [dir=back, pos="s,295.03,286.9 296.51,297.06 298.29,309.28 300.34,323.4 302.08,335.37", _draw_="c 9 -#000000ff B 4 297 297 298 309 300 323 302 335 ", _tdraw_="S 5 -solid c 9 -#000000ff C 9 -#000000ff P 3 300 296 295 287 293 297 "];
+}

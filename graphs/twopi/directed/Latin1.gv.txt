@@ -1,0 +1,15 @@
+# Generated Mon Jan 24 22:34:03 GMT 2011 by twopi - graphviz version 2.26.3 (20100126.1600)
+#
+# 
+# real	0m0.030s
+# user	0m0.017s
+# sys	0m0.009s
+
+digraph G {
+	graph [charset=latin1];
+	node [label="\N", fontsize=10];
+	graph [bb="0,0,173,38",
+		_draw_="c 9 -#ffffffff C 9 -#ffffffff P 4 0 -1 0 38 174 38 174 -1 ",
+		xdotversion="1.2"];
+	a [label=αβγδεζηθικλμνξοπρςστυφψωϊϋό, pos="86.5,19", width="2.3611", height="0.5", _draw_="c 9 -#000000ff e 87 19 85 18 ", _ldraw_="F 10.000000 11 -Times-Roman c 9 -#000000ff T 87 15 0 129 54 -Γ΅ΓΆΓ£Γ¤Γ¥Γ¦Γ§Γ¨Γ©ΓªΓ«Γ¬Γ­Γ®Γ―Γ°Γ±Γ²Γ³Γ΄ΓµΓ¶ΓΈΓΉΓΊΓ»ΓΌ "];
+}

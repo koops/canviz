@@ -1,0 +1,25 @@
+# Generated Mon Jan 24 22:34:03 GMT 2011 by circo - graphviz version 2.26.3 (20100126.1600)
+#
+# 
+# real	0m0.035s
+# user	0m0.018s
+# sys	0m0.010s
+
+digraph if {
+	graph [rankdir=LR];
+	node [label="\N"];
+	graph [bb="0,0,308,38",
+		_draw_="c 9 -#ffffffff C 9 -#ffffffff P 4 0 -1 0 38 309 38 309 -1 ",
+		xdotversion="1.2"];
+	{
+		graph [rank=same,
+			bb="",
+			_draw_="",
+			xdotversion=""];
+		b [pos="154,19", width="0.75", height="0.5", _draw_="c 9 -#000000ff e 154 19 27 18 ", _ldraw_="F 14.000000 11 -Times-Roman c 9 -#000000ff T 154 13 0 7 1 -b "];
+		c [pos="280,19", width="0.75", height="0.5", _draw_="c 9 -#000000ff e 280 19 27 18 ", _ldraw_="F 14.000000 11 -Times-Roman c 9 -#000000ff T 280 13 0 7 1 -c "];
+	}
+	a [pos="28,19", width="0.75", height="0.5", _draw_="c 9 -#000000ff e 28 19 27 18 ", _ldraw_="F 14.000000 11 -Times-Roman c 9 -#000000ff T 28 13 0 7 1 -a "];
+	a -> b [pos="e,126.58,19 55.03,19 72.928,19 96.651,19 116.38,19", _draw_="c 9 -#000000ff B 4 55 19 73 19 97 19 116 19 ", _hdraw_="S 5 -solid c 9 -#000000ff C 9 -#000000ff P 3 117 23 127 19 117 16 "];
+	c -> b [label="long long long", pos="e,181.42,19 252.97,19 235.07,19 211.35,19 191.62,19", lp="222.29,11", _draw_="c 9 -#000000ff B 4 253 19 235 19 211 19 192 19 ", _hdraw_="S 5 -solid c 9 -#000000ff C 9 -#000000ff P 3 191 16 181 19 191 23 ", _ldraw_="F 14.000000 11 -Times-Roman c 9 -#000000ff T 222 5 0 87 14 -long long long "];
+}

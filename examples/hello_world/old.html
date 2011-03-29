@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+This file is part of Canviz. See http://www.canviz.org/
+$Id: old.html.in 256 2009-01-08 11:14:07Z ryandesign.com $
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Canviz demo: Hello world: The old way</title>
+	<link rel="stylesheet" type="text/css" href="styles_inner.css" />
+	<script type="text/javascript" src="../../prototype/prototype.js"></script>
+	<script type="text/javascript" src="scripts_common.js"></script>
+</head>
+<body>
+
+<h2>The old way</h2>
+
+<p>1. Write a Graphviz file:</p>
+
+<p><pre>digraph hello_world {
+	node [href="javascript:void(click_node('\N'))"]
+	hello:e->world:w
+}
+</pre></p>
+
+<p>2. Have Graphviz render it to PNG and image map files:</p>
+
+<p><pre>dot graph.gv -Tpng -ograph.png -Tcmapx -ograph-cmapx.html</pre></p>
+
+<p>3. Write an HTML page containing the image map and an &lt;img&gt; tag with the PNG file's name:</p>
+
+<map id="hello_world" name="hello_world">
+<area shape="poly" id="node1" href="javascript:void(click_node(&#39;hello&#39;))" title="hello" alt="" coords="86,29 84,22 78,15 69,10 58,7 45,5 33,7 21,10 12,15 7,22 5,29 7,37 12,43 21,49 33,52 45,53 58,52 69,49 78,43 84,37"/>
+<area shape="poly" id="node3" href="javascript:void(click_node(&#39;world&#39;))" title="world" alt="" coords="174,125 171,118 165,111 155,106 143,103 129,101 116,103 103,106 94,111 87,118 85,125 87,133 94,139 103,145 116,148 129,149 143,148 155,145 165,139 171,133"/>
+</map>
+
+
+<div class="graph">
+	<img src="graph.png" usemap="#hello_world" border="0" />
+</div>
+
+<p id="click_output"></p>
+
+</body>
+</html>
